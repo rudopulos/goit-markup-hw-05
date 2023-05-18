@@ -464,8 +464,8 @@ list-style-type: none;
 
 }
 h1,h3{
-    font family:var(--link-color);
-}
+    font family:var(--link-color);}
+    
 .filter-item:not(:last-child){
     margin-right:  10px;
 }
