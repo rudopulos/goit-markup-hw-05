@@ -302,10 +302,26 @@ align-items: center;
     list-style-type: none;
 }
 
+.what-we-do-txt{
+    position: absolute;
+    padding: 27px 27px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: rgba(47, 48, 58, 0.8);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight:  700;
+    line-height: 16px;
+    
+}
 .what-we-do-item:not(:last-child){
     margin-right: 30px;
 }
-
+.what-we-do-item{
+    position: relative;
+}
 .title{
     margin: 0px;
     margin-bottom: 50px;
